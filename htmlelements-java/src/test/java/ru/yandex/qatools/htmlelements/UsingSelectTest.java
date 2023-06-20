@@ -27,6 +27,7 @@ public class UsingSelectTest {
         when(registerForm.findElement(By.name("country"))).thenReturn(countryBoxElement);
         when(countryBoxElement.getTagName()).thenReturn("select");
         when(countryBoxElement.getAttribute("multiple")).thenReturn("true");
+        when(countryBoxElement.getDomAttribute("multiple")).thenReturn("true");
 
         RegisterForm form = new RegisterForm(driver);
         form.country.deselectAll();

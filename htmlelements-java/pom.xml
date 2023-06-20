@@ -12,7 +12,7 @@
     <name>Yandex QATools HtmlElements For Java</name>
 
     <properties>
-        <selenium.version>4.1.0</selenium.version>
+        <selenium.version>4.13.2</selenium.version>
         <phantomjs-maven-plugin.version>0.7</phantomjs-maven-plugin.version>
         <phantomjs.binary.version>1.9.8</phantomjs.binary.version>
     </properties>
@@ -36,8 +36,8 @@
         </dependency>
         <dependency>
             <groupId>org.mockito</groupId>
-            <artifactId>mockito-all</artifactId>
-            <version>1.10.19</version>
+            <artifactId>mockito-core</artifactId>
+            <version>5.4.0</version>
             <scope>test</scope>
         </dependency>
         <dependency>
