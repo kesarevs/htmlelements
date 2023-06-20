@@ -12,7 +12,7 @@
     <name>Yandex QATools HtmlElements For Java</name>
 
     <properties>
-        <selenium.version>4.13.2</selenium.version>
+        <selenium.version>4.10.0</selenium.version>
         <phantomjs-maven-plugin.version>0.7</phantomjs-maven-plugin.version>
         <phantomjs.binary.version>1.9.8</phantomjs.binary.version>
     </properties>
@@ -31,7 +31,7 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
         <dependency>
